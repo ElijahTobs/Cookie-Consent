@@ -54,12 +54,12 @@ li{
 /* layout */
 
 img{
-    width: 100%;
+  width: 100%;
 }
 
 main{
-    width: 400px;
-    margin: 0 auto;
+  width: 400px;
+  margin: 0 auto;
 }
 
 /* modal */
@@ -119,4 +119,31 @@ main{
 .modal-btn{
   padding: 10px 24px;
   cursor: pointer;
+}
+
+/* modal input */
+
+input{
+  margin-top: 10px; 
+  border: 1px solid #212529;
+  padding: 10px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+/* modal after submit */
+
+.loading{
+  width: 100%; 
+  margin-top: 10px;
+}
+
+.modal-display-name{
+  color: fuchsia;
+}
+
+.modal-text{
+  height: 140px;
+  line-height: 23px;
+  margin-bottom: 0;
 }
