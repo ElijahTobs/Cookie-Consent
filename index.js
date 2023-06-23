@@ -41,6 +41,8 @@ consentForm.addEventListener("submit", (e) => {
           <img src="images/pirate.gif">
       </div>
     `
+    closeModal.disabled = false
   }, 3500);
+
 })
 
