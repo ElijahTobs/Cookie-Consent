@@ -4,6 +4,7 @@ const consentForm = document.getElementById("consent-form")
 const modalText = document.getElementById("modal-text")
 
 
+
 setTimeout(() => {
   modal.style.display = "inline"
 }, 1000);
@@ -22,5 +23,20 @@ consentForm.addEventListener("submit", (e) => {
       </p>
     </div>
   `
+  setTimeout(() => {
+    document.getElementById("uploadText").innerText = `
+      Making the sale...
+    `
+  }, 1500);
+
+  setTimeout(() => {
+    document.getElementById("modal-inner").innerHTML = `
+      <h2>Thanks you sucker! </h2>
+      <p>We just sold the rights to your eternal soul.</p>
+      <div class="idiot-gif">
+          <img src="images/pirate.gif">
+      </div>
+    `
+  }, 3500);
 })
 
