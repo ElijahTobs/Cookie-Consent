@@ -2,8 +2,16 @@ const modal = document.getElementById("modal")
 const closeModal = document.getElementById("modal-close-btn")
 const consentForm = document.getElementById("consent-form")
 const modalText = document.getElementById("modal-text")
+const modalDeclineBtn = document.getElementById("modal-decline-btn")
+const modalAcceptBtn = document.getElementById("modal-accept-btn")
+const choiceBtns = document.getElementById("modal-choice-btns")
 
 
+
+modalDeclineBtn.addEventListener("mouseenter", () => {
+
+  choiceBtns.classList.toggle("reverse")
+})
 
 setTimeout(() => {
   modal.style.display = "inline"
